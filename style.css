@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+h2, h3 {
+  margin: 10px 0;
+}
+
+.tv-box {
+  margin-bottom: 20px;
+}
+
+.controls select {
+  padding: 6px;
+  margin: 5px;
+}
+
+.chart {
+  height: 320px;
+  margin: 10px auto;
+}
+
+.signal {
+  font-size: 28px;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.signal.trade { background: #16a34a; }
+.signal.wait  { background: #ca8a04; }
+.signal.no    { background: #dc2626; }
+
+.conditions {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.note {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 10px;
+}
